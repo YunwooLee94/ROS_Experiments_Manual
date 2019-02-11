@@ -7,7 +7,7 @@ This manual has been made for robot experiments using ROS.
 1. First of all, you need to set up each computer's ROS IP address.
 
 2. Make the launch file for initialization of robots, and insert codes which declare the namespace.
-(e.g. '<group ns="Robot1">', '</group>')
+(e.g. 'group ns="Robot1"', '/group')
 
 3. Enter to packages you want to use and edit its launch file to designate topics' namespace(especially 'remap part').
 
@@ -27,4 +27,4 @@ This manual has been made for robot experiments using ROS.
 6. rosbag record --lz4 -O test.bag /namespace/data
 
 #After Experiments
-1. You can verify your saved data using command "rosbag info <filename>" or "rosbag play <filename>".
+1. You can verify your saved data using command "rosbag info 'filename'" or "rosbag play 'filename'".
