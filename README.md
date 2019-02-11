@@ -28,3 +28,4 @@ This manual has been made for robot experiments using ROS.
 
 #After Experiments
 1. You can verify your saved data using command "rosbag info <filename>" or "rosbag play <filename>".
+<<<<>>>>>
